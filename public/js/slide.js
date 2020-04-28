@@ -11,6 +11,16 @@
             slideChange: function(){
                 console.log("touched");
             },
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true
+        },
+        scrollbar: {
+          el: '.swiper-scrollbar',
+          hide: true,
+          draggable: true
         }
     });
 }

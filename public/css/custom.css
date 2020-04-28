@@ -28,9 +28,44 @@ p {
 }
 
 .swiper-button-prev {
-  top: 6vh;
+  top: 50%;
 }
 
 .swiper-button-next {
-  top: 6vh;
+  top: 50%;
+}
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	background-image: none;
+	width: 28px;
+	height: 86px;
+	margin-top: -43px;
+}
+.swiper-button-prev:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f100"; /* angle-double-leftのUnicode */
+	font-size: 48px;
+  font-weight: 900;
+	color: #337AB7;
+}
+.swiper-button-next:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f101"; /* angle-double-rightのUnicode */
+	font-size: 48px;
+  font-weight: 900;
+	color: #337AB7;
+}
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+    content: none;
+}
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    content: none;
 }
