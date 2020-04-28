@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  #embedded-human {
+    width:100%;
+
+  }
+
+}
+p {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.welcomeh1 {
+   margin-bottom: 1.5em;
+}
+
+.odd-section {
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    background: #EFDECD;
+}
+.even-section {
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    background: #fff;
+}
