@@ -26,3 +26,11 @@ p {
     text-align: center;
     background: #fff;
 }
+
+.swiper-button-prev {
+  top: 6vh;
+}
+
+.swiper-button-next {
+  top: 6vh;
+}
